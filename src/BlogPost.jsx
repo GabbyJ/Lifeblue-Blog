@@ -4,7 +4,7 @@ export default function BlogPost() {
     return (
         <div  class="blog-post">
             <div  class="blog-img">
-                <img src="https://via.placeholder.com/150" alt="blog post"/>
+                <img src="https://via.placeholder.com/350" alt="blog post"/>
             </div>
             <div  class="blog-info">
                 <div  class="blog-date">

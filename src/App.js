@@ -1,4 +1,5 @@
 import BlogPost from "./BlogPost";
+import Aside from "./Aside";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -6,27 +7,16 @@ function App() {
   return (
     <div class="container"> 
     
-         <Header/>
-        <section class="featured"><img src="https://via.placeholder.com/3000x800.png?text=Featured Blog" alt=""/> </section>
-        <aside>
-        <h2>Archive</h2>
-        <h4>January</h4>
-        <h4>January</h4>
-        <h4>January</h4>
-        <h4>January</h4>
-        <form class="div13">
-          <label for="subscribe">Subscribe to Newsletter</label><br/>
-          <input type="email" id="subscribe" name="subscribe"/>
-          <input type="submit" value="Submit"/>
-        </form>
-      </aside>
-    <div className="blogs">
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-        <BlogPost/>
-      </div>
+      <Header/>
+      <section class="featured"><img src="https://via.placeholder.com/3000x800.png?text=Featured Blog" alt=""/> </section>
+      <Aside/>
+      <div className="blogs">
+          <BlogPost/>
+          <BlogPost/>
+          <BlogPost/>
+          <BlogPost/>
+          <BlogPost/>
+        </div>
        
         
 
