@@ -1,3 +1,11 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
 import BlogPost from "./BlogPost";
 import Aside from "./Aside";
 import PopularPosts from "./PopularPosts";
@@ -6,26 +14,29 @@ import Header from "./Header";
 
 function App() {
   return (
+    <Router>
     <div class="container"> 
     
       <Header/>
-      <section class="featured"><img src="https://via.placeholder.com/3000x800.png?text=Featured Blog" alt=""/> </section>
-      <Aside/>
-      <div className="blogs">
-      <h2 className="popular">Recent Posts</h2>
-          <BlogPost/>
-          <BlogPost/>
-          <BlogPost/>
-          <BlogPost/>
-          <BlogPost/>
-          <div className="popular-section">
-            <h2 className="popular">Popular Posts</h2>
-            <PopularPosts/>
-          </div>
+      
+      <Switch>
+          <Route path="/blog">
+            <BlogPost />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
           
-        </div>
+        </Switch>
+      
         <form class="bottom-form">
-                <label for="subscribe">Subscribe to Newsletter</label><br/>
+                <label for="subscribe">Subscribe to Our Newsletter</label><br/>
                 <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
                 <input type="submit" value="Submit"/>
             </form>
@@ -33,6 +44,8 @@ function App() {
         <Footer/> 
          
     </div>
+    
+    </Router>
   );
 }
 

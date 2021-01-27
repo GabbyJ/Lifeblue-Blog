@@ -1,3 +1,9 @@
+:root{
+  --off-white:#f1f1f1;
+  --blue: #4facfe;
+  --light-blue: #6dd5ed;
+  --teal: #2193b0;
+}
 *{
   margin: 0;
   padding: 0;
@@ -10,12 +16,48 @@ html{
   font-size: 10px;
 }
 
+.container{
+  background-color: var(--off-white);
+}
+
+header{
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  color: var(--off-white);
+}
+
+.logo{
+  position: absolute;
+  margin: 0 5rem;
+}
+
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 2rem 5rem;
+  
+}
+
+.link{
+  color: white;
+  font-size: 2.5rem;
+  margin:2rem;
+  text-decoration: none;
+}
+
 .featured img{
   width: 100%;
-  padding: 0 5rem;
+  /* padding: 0 5rem; */
 }
 .featured{
   margin-bottom:5rem;
+  margin-top: 5rem;
+  box-shadow: 1rem 1rem 1rem rgba(0,0,0,.2);
 }
 
 .container{
@@ -39,7 +81,7 @@ html{
   max-height: none; /*remove for mobile*/
   padding: 2.5rem;
   background-color: white;
-  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  box-shadow: 0 1rem 5rem rgba(0,0,0,.2);
   display: flex;
   align-items: center;
   border-radius: .8rem;
@@ -84,7 +126,7 @@ html{
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, rgba(79, 172, 254, .8), rgba (0,242,254,.8));
+  background: linear-gradient(to right, rgba(79, 172, 254, .8), rgba(0,242,254,.8));
   box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
   border-radius: .8rem;
 }
@@ -101,7 +143,7 @@ html{
   font-size:2.5rem;
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
-  color: #4facfe;
+  color:var(--teal);
 }
 
 .blog-summary{
@@ -117,14 +159,14 @@ html{
   text-transform: uppercase;
   font-size: 1.2rem;
   color: white;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%);
   border-radius: .8rem;
   text-decoration: none;
 
 }
 
 .read-more:hover{
-  background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+  background-image: linear-gradient(to right, var(--light-blue) 0%,var(--teal) 100%);
 }
 
 /* @media screen and (max-width: 1068px){
@@ -209,7 +251,9 @@ aside form{
   text-align: center;
   margin: 5rem auto;
   margin-left: 20%;
-  background-color: yellow;
+  background-color: var(--off-white);
+  color: black;
+  border-top: 1px solid black;
   padding: 2rem 5rem;
 }
 
@@ -227,17 +271,39 @@ input[type=email]{
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  border-radius: .8rem;
 }
 
 input[type=submit]{
-  padding: .5rem 1rem;
-  background-color: white;
+  /* padding: .5rem 1rem;
+  background-color: black;
+  color: var(--off-white);
   width: 50%;
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1.2rem;
+  background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%);
+  border-radius: .8rem; */
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--off-white);
+  background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%);
+  border-radius: .8rem;
+  text-decoration: none;
+  outline: var(--off-white);
+  border: none;
 
 }
+
+input[type=submit]:hover{
+  background-image: linear-gradient(to right, var(--light-blue) 0%,var(--teal) 100%);
+}
+
+
 
 .bottom-form label{
   font-size: 3rem;
@@ -252,7 +318,19 @@ input[type=submit]{
   display: block;
   width: 10%;
   margin: 0 auto;
+  background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%);
+  border-radius: .8rem;
 }
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid var(--teal)!important;
+}
+
+.react-tabs__tab--selected {
+  background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%)!important;
+}
+
+
 
 .popular-section{
   display: flex;
@@ -285,7 +363,7 @@ input[type=submit]{
 
 .swiper-slide {
   font-size: 18px;
-  background: #fff;
+  background: var(--off-white);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -309,8 +387,12 @@ footer{
     width: 100%;
     display: block;
     padding: 5rem;
-    background-color: lightblue;
+    background-color: black;
     text-align: center;
     font-size: 1.6rem;
 
+}
+
+footer p{
+  color:var(--off-white);
 }
