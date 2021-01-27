@@ -167,7 +167,7 @@ html{
 aside{
     width: 20%;
     min-height: 100vh;
-    background-color: lightblue;
+    border-right: 1px solid black;
     
 }
 
@@ -204,6 +204,17 @@ aside form{
   margin-top: 5rem;
 }
 
+.bottom-form {
+  width: 100%;
+  text-align: center;
+  margin: 5rem auto;
+  margin-left: 20%;
+  background-color: yellow;
+  padding: 2rem 5rem;
+}
+
+
+
 form label{
   font-size: 2rem;
   font-weight: bold;
@@ -226,6 +237,21 @@ input[type=submit]{
   font-weight: bold;
   font-size: 1.2rem;
 
+}
+
+.bottom-form label{
+  font-size: 3rem;
+}
+
+.bottom-form input[type=email]{
+  display: block;
+  width: 50%;
+  margin: 0 auto 3rem;
+}
+.bottom-form input[type=submit]{
+  display: block;
+  width: 10%;
+  margin: 0 auto;
 }
 
 .popular-section{

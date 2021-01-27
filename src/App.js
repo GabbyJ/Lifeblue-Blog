@@ -19,11 +19,16 @@ function App() {
           <BlogPost/>
           <BlogPost/>
           <div className="popular-section">
-          <h2 className="popular">Popular Posts</h2>
-          <PopularPosts/>
+            <h2 className="popular">Popular Posts</h2>
+            <PopularPosts/>
+          </div>
+          
         </div>
-        </div>
-        
+        <form class="bottom-form">
+                <label for="subscribe">Subscribe to Newsletter</label><br/>
+                <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
+                <input type="submit" value="Submit"/>
+            </form>
         
         <Footer/> 
          
