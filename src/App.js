@@ -6,6 +6,22 @@ function App() {
       </header>
       <main className="row">
         <section className="left-column">
+          <div className="blog-post">
+            <div className="blog-img">
+              <img src="https://via.placeholder.com/150" alt="blog post"/>
+            </div>
+            <div className="blog-info">
+              <div className="blog-date">
+                <span>Sunday</span>
+                <span>January 24, 2021</span>
+              </div>
+              <h1 className="blog-title">Blog Post Title</h1>
+              <p className="blog-summary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="#" className="read-more">Read More</a>
+            </div>
+          </div>
           <div className="card">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Jan, 24, 2021</h5>
