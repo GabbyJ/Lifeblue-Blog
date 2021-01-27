@@ -1,7 +1,9 @@
 import BlogPost from "./BlogPost";
 import Aside from "./Aside";
+import PopularPosts from "./PopularPosts";
 import Footer from "./Footer";
 import Header from "./Header";
+import PopularCarousel from "./PopularCarousel";
 
 function App() {
   return (
@@ -17,16 +19,7 @@ function App() {
           <BlogPost/>
           <BlogPost/>
         </div>
-       
-        
-
-             
-        
-    
-        <div class="popular">Popular with tabs</div> 
-        <div class="div10">Blog Post 1</div> 
-        <div class="div11">Blog Post 2</div> 
-        <div class="div12">Blog Post 3</div>
+       <PopularPosts/>
         
          
         

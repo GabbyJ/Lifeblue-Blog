@@ -1,20 +1,28 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import PopularCarousel from './PopularCarousel';
 
 export default function PopularPosts() {
     return (
-        <Tabs>
+        <Tabs className="popular-tabs">
             <TabList>
-            <Tab>Title 1</Tab>
-            <Tab>Title 2</Tab>
+            <Tab>Most Viewed</Tab>
+            <Tab>Most Commented</Tab>
+            <Tab>Most Shared</Tab>
             </TabList>
 
             <TabPanel>
-            <h2>Any content 1</h2>
+                <h2>Most Viewed</h2>
+                <PopularCarousel/>
             </TabPanel>
             <TabPanel>
-            <h2>Any content 2</h2>
+                <h2>Most Commented</h2>
+                <PopularCarousel/>
+            </TabPanel>
+            <TabPanel>
+                <h2>Most Shared</h2>
+                <PopularCarousel/>
             </TabPanel>
         </Tabs>
     )
