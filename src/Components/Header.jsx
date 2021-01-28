@@ -16,7 +16,7 @@ export default function Header() {
                         <div class="dropdown-content">
                             <a href="https://www.lifeblue.com" target="blank">Lifeblue</a>
                             <a href="https://www.gmjacobsdev.com" target="blank">Gabrielle's Portfolio</a>
-                            <a href="https://github.com/GabbyJ/lifeblue-blog">Site Github Repo</a>
+                            <a href="https://github.com/GabbyJ/lifeblue-blog" target="blank">Site Github Repo</a>
                         </div>
                     </div>
                     <NavLink to="/about" className="link">About</NavLink>
