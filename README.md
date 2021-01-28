@@ -1,4 +1,4 @@
-Live site is hosted on Netlify. Built with React and CSS.
+Live site is [hosted on Netlify](https://lifeblue-blog.netlify.app). Built with React and CSS.
 
 # Project Description
 
@@ -28,12 +28,12 @@ If you feel they might assist you in this project, the following are fair game, 
 - React Router Dom
 
 # How to Run
-Can be viewed here on Netlify.
+Can be viewed [here on Netlify](https://lifeblue-blog.netlify.app).
 ## To Run Locally:
 
-- Clone the repo using git clone https://github.com/GabbyJ/lifeblue-blog.git
-- Install dependencies with npm install
-- Start server with npm start
+- Clone the repo using `git clone https://github.com/GabbyJ/lifeblue-blog.git`
+- Install dependencies with `npm install`
+- Start server with `npm start`
 
 ## Issues to watch for
 
