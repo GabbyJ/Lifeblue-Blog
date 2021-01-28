@@ -10,7 +10,7 @@ export default function Header() {
             <h1>Globe Travel</h1>
             <div className="nav-wrapper">
                 <nav>
-                    <NavLink to="/" className="link">Home</NavLink>
+                    <NavLink exact to="/" className="link">Home</NavLink>
                     <NavLink to="/about" className="link">About</NavLink>
                     <NavLink to="/blog" className="link">Blog</NavLink>
                     <NavLink to="/contact" className="link">Contact</NavLink>

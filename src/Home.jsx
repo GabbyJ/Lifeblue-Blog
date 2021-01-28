@@ -6,7 +6,10 @@ import Aside from "./Aside";
 export default function Home() {
     return (
         <div className="container">
-            <section class="featured"><img src="https://via.placeholder.com/3000x800.png?text=Featured Blog" alt=""/> </section>
+            <section class="featured">
+                <img src="https://via.placeholder.com/3000x800.png?text=Featured Blog Image" alt=""/> 
+                <p>Blog Title Goes Here for the Featured Post</p>
+            </section>
             <Aside/>
             <div className="blogs">
                 <h2 className="popular">Recent Posts</h2>

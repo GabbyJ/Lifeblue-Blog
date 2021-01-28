@@ -19,18 +19,11 @@ function App() {
       <Header/>
       
       <Switch>
-          <Route path="/blog">
-            <BlogPost />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          
+          <Route exact path="/blog" component={BlogPost}/>
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/" component={Home}/>
           
         </Switch>
       
