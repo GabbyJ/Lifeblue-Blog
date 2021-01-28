@@ -7,9 +7,9 @@ export default function PopularPosts() {
     return (
         <Tabs className="popular-tabs">
             <TabList>
-            <Tab>Most Viewed</Tab>
-            <Tab>Most Commented</Tab>
-            <Tab>Most Shared</Tab>
+                <Tab>Most Viewed</Tab>
+                <Tab>Most Commented</Tab>
+                <Tab>Most Shared</Tab>
             </TabList>
 
             <TabPanel>

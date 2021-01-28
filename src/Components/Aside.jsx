@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookSquare, FaFacebookF, FaTwitter, FaInstagram, FaMediumM } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaMediumM } from 'react-icons/fa';
 
 
 export default function Aside() {
@@ -102,15 +102,13 @@ export default function Aside() {
                     <p>Blog post 7 title</p>
                 </details>
             </details>
-            
             <form class="form">
                 <label for="subscribe">Subscribe to Our Newsletter</label><br/>
                 <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
                 <input type="submit" value="Submit"/>
             </form>
-            
-              <div className="socials"> 
-            <FaFacebookF className="social"/><FaTwitter className="social"/><FaInstagram className="social"/><FaMediumM className="social"/>
+            <div className="socials"> 
+                <FaFacebookF className="social"/><FaTwitter className="social"/><FaInstagram className="social"/><FaMediumM className="social"/>
             </div> 
       </aside>
     )
