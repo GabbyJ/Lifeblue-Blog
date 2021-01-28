@@ -1,10 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FcGlobe } from 'react-icons/fc';
 
 export default function Header() {
     return (
         <header>
-            <img className="logo" src="https://via.placeholder.com/100.png?text=Logo" alt=""/>
+            
+            <FcGlobe className="logo"/>
+            <h1>Globe Travel</h1>
             <div className="nav-wrapper">
                 <nav>
                     <NavLink to="/" className="link">Home</NavLink>

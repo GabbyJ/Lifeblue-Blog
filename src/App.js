@@ -7,10 +7,9 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import BlogPost from "./BlogPost";
-import Aside from "./Aside";
-import PopularPosts from "./PopularPosts";
 import Footer from "./Footer";
 import Header from "./Header";
+import { FaEnvelopeOpenText } from 'react-icons/fa';
 
 function App() {
   return (
@@ -36,6 +35,7 @@ function App() {
         </Switch>
       
         <form class="bottom-form">
+                <FaEnvelopeOpenText className="form-icon"/>
                 <label for="subscribe">Subscribe to Our Newsletter</label><br/>
                 <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
                 <input type="submit" value="Submit"/>
