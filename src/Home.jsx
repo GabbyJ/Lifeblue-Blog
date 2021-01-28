@@ -18,6 +18,7 @@ export default function Home() {
                     <BlogPost/>
                     <BlogPost/>
                     <BlogPost/>
+                    <BlogPost/>
                 <div className="popular-section">
                     <h2 className="popular">Popular Posts</h2>
                     <PopularPosts/>

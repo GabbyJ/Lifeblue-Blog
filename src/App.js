@@ -6,10 +6,12 @@ import {
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import BlogPost from "./BlogPost";
+import Trips from "./Trips";
 import Footer from "./Footer";
 import Header from "./Header";
 import { FaEnvelopeOpenText } from 'react-icons/fa';
+import BlogPage from "./BlogPage";
+import BlogArticle from "./BlogArticle"
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       
       <Switch>
           
-          <Route exact path="/blog" component={BlogPost}/>
+          <Route exact path="/blog" component={BlogPage}/>
+          <Route exact path="/blog-article" component={BlogArticle}/>
+          <Route exact path="/trips" component={Trips}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/" component={Home}/>

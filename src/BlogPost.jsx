@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from "react-router-dom"
 
 export default function BlogPost() {
     return (
@@ -15,7 +16,8 @@ export default function BlogPost() {
                 <p class="blog-summary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <a href="#"  class="read-more">Read More</a>
+                <NavLink to="/blog-article" className="read-more">Read More</NavLink>
+                
             </div>
         </div>
     )
