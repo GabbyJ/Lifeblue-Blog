@@ -12,6 +12,7 @@ import Header from "./Header";
 import { FaEnvelopeOpenText } from 'react-icons/fa';
 import BlogPage from "./BlogPage";
 import BlogArticle from "./BlogArticle"
+import { FaFacebookSquare, FaFacebookF, FaTwitter, FaInstagram, FaMediumM } from 'react-icons/fa';
 
 function App() {
   return (
@@ -36,8 +37,11 @@ function App() {
                 <label for="subscribe">Subscribe to Our Newsletter</label><br/>
                 <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
                 <input type="submit" value="Submit"/>
+                <div className="socials"> 
+            <FaFacebookF className="social"/><FaTwitter className="social"/><FaInstagram className="social"/><FaMediumM className="social"/>
+            </div> 
             </form>
-        
+            
         <Footer/> 
          
     </div>

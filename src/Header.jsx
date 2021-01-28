@@ -6,8 +6,8 @@ export default function Header() {
     return (
         <header>
             
-                <FcGlobe className="logo"/>
-                <h1>Globe Travel</h1>
+            <NavLink exact to="/"><FcGlobe className="logo"/></NavLink>
+                <NavLink exact to="/" className="company"><h1>Globe Travel</h1></NavLink>
             
             <div className="nav-wrapper">
                 <nav>

@@ -33,8 +33,13 @@ header{
 }
 
 header h1{
-  
+  color: var(--off-white);
   font-size: 8rem;
+}
+
+.company{
+  text-decoration: none;
+  
 }
 
 .logo{
