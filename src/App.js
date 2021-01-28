@@ -29,8 +29,8 @@ function App() {
       </Switch>
       <form class="bottom-form">
         <FaEnvelopeOpenText className="form-icon"/>
-        <label for="subscribe">Subscribe to Our Newsletter</label><br/>
-        <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
+        <label for="subscribe2">Subscribe to Our Newsletter</label><br/>
+        <input type="email" id="subscribe2" name="subscribe" placeholder="jane_doe@example.com"/>
         <input type="submit" value="Submit"/>
         <div className="socials"> 
           <FaFacebookF className="social"/><FaTwitter className="social"/><FaInstagram className="social"/><FaMediumM className="social"/>

@@ -103,8 +103,8 @@ export default function Aside() {
                 </details>
             </details>
             <form class="form">
-                <label for="subscribe">Subscribe to Our Newsletter</label><br/>
-                <input type="email" id="subscribe" name="subscribe" placeholder="jane_doe@example.com"/>
+                <label for="subscribe1">Subscribe to Our Newsletter</label><br/>
+                <input type="email" id="subscribe1" name="subscribe" placeholder="jane_doe@example.com"/>
                 <input type="submit" value="Submit"/>
             </form>
             <div className="socials"> 

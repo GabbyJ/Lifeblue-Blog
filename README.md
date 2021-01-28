@@ -1,4 +1,11 @@
-Live site is [hosted on Netlify](https://lifeblue-blog.netlify.app). Built with React and CSS.
+Live site is [hosted on Netlify](https://lifeblue-blog.netlify.app). Built with React and CSS3.
+
+**Lighthouse Audit: 95.5%**
+
+- Performance: 95%
+- Accessibility: 96%
+- Best Practices: 100%
+- SEO: 91%
 
 # Project Description
 
@@ -37,13 +44,14 @@ Can be viewed [here on Netlify](https://lifeblue-blog.netlify.app).
 
 ## Issues to watch for
 
-- Not yet responsive on small devices but will be in the near future once work slows down or I get a new job ;)
+- Not yet responsive on small devices but will be in the near future once work slows down or I get a new job 😉
 
 # Potential new features to make it better:
 
 - Create Dark Mode
-- Use more JSX features to make the blog appear more functional
 - Sliding Featured Blog carousel
+- Use more JSX features to make the blog appear more functional and the code cleaner
+- Add social media meta tags
 
 
 <details>
