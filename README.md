@@ -50,8 +50,8 @@ Can be viewed [here on Netlify](https://lifeblue-blog.netlify.app).
 # Potential new features to make it better:
 
 - Create Dark Mode
-- Sliding Featured Blog carousel
-- Use more JSX features to make the blog appear more functional and the code cleaner
+- Sliding Featured Story carousel
+- Use more props to make the blog appear more functional and the code cleaner
 - Add social media meta tags
 
 
