@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination } from 'swiper';
-import BlogPost from "../Blog-Parts/BlogPost";
+import {mapCards} from "../Blog-Parts/BlogPost";
+import {cards} from "../../lists.js";
 
 Swiper.use([Navigation, Pagination]);
 class PopularCarousel extends Component{
@@ -56,16 +57,16 @@ class PopularCarousel extends Component{
           <div>
             <div class="swiper-container">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
-                <div class="swiper-slide"><BlogPost/></div>
+                <div class="swiper-slide">{mapCards(cards[0])}</div>
+                <div class="swiper-slide">{mapCards(cards[1])}</div>
+                <div class="swiper-slide">{mapCards(cards[2])}</div>
+                <div class="swiper-slide">{mapCards(cards[3])}</div>
+                <div class="swiper-slide">{mapCards(cards[4])}</div>
+                <div class="swiper-slide">{mapCards(cards[5])}</div>
+                <div class="swiper-slide">{mapCards(cards[6])}</div>
+                <div class="swiper-slide">{mapCards(cards[7])}</div>
+                <div class="swiper-slide">{mapCards(cards[8])}</div>
+                <div class="swiper-slide">{mapCards(cards[9])}</div>
               </div>
               <div class="swiper-pagination"></div>
               <div class="swiper-button-next"></div>

@@ -11,7 +11,7 @@ export default function Aside() {
                 <details>
                     <summary><span className="article-month">January</span> (3)</summary>
                     <p>Blog post 1 title</p>
-                    <p>Blog post 2 title</p>
+                    <p>Blog post 3 title that's really long because why not and I like stuff like this</p>
                     <p>Blog post 3 title</p>
                 </details>
             </details>
@@ -21,7 +21,7 @@ export default function Aside() {
                     <summary><span className="article-month">December</span> (6)</summary>
                     <p>Blog post 1 title</p>
                     <p>Blog post 2 title</p>
-                    <p>Blog post 3 title that's really long because why no and I like stuff like this</p>
+                    <p>Blog post 3 title that's really long because why not and I like stuff like this</p>
                     <p>Blog post 4 title</p>
                     <p>Blog post 5 title</p>
                     <p>Blog post 6 title</p>

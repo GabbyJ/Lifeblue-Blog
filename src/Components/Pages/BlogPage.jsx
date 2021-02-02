@@ -7,14 +7,6 @@ export default function BlogPage() {
         <div className="container blogPage">
         <div className="blogs">
             <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
-            <BlogPost/>
         </div>
         <Aside/>
         </div>

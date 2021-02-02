@@ -138,7 +138,7 @@ nav{
 }
 
 /** BLOG CARDS **/
-.blogs{
+.blogs, .card{
  display: flex;
  justify-content: space-around;
  flex-wrap: wrap;
@@ -221,6 +221,7 @@ nav{
   background-image: linear-gradient(to right, var(--teal) 0%, var(--light-blue) 100%);
   border-radius: .8rem;
   text-decoration: none;
+  font-weight: bold;
 
 }
 
