@@ -33,6 +33,8 @@ If you feel they might assist you in this project, the following are fair game, 
 ## Dependencies Used
 - React Icons
 - React Router Dom
+- Swiper
+- React Tabs
 
 # How to Run
 Can be viewed [here on Netlify](https://lifeblue-blog.netlify.app).
