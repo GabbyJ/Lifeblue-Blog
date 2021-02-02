@@ -45,6 +45,7 @@ Can be viewed [here on Netlify](https://lifeblue-blog.netlify.app).
 ## Issues to watch for
 
 - Not yet responsive on small devices but will be in the near future once work slows down or I get a new job 😉
+    - Update: Now responsive on tablet and small devices
 
 # Potential new features to make it better:
 

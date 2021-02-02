@@ -4,7 +4,6 @@ import Aside from '../Aside';
 export default function BlogArticle() {
     return (
         <div className="blogArticle">
-            <Aside/>
             <div className="full-post">
                 <img src="https://via.placeholder.com/1000.png?text=Main Blog Image" alt="Article placeholder" className="full-post-img"/> 
                 <h2 className="full-post-title">Blog Title Goes Here</h2>
@@ -24,6 +23,7 @@ export default function BlogArticle() {
                     </p>
                 </section>
             </div>
+            <Aside/>
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function Home() {
                 <img src="https://via.placeholder.com/3000x800.png?text=Featured Blog Image" alt="Featured placeholder"/> 
                 <p>Blog Title Goes Here for the Featured Post</p>
             </section>
-            <Aside/>
+            
             <div className="blogs">
                 <h2 className="popular">Recent Posts</h2>
                     <BlogPost/>
@@ -24,6 +24,7 @@ export default function Home() {
                     <PopularPosts/>
                 </div>
             </div>
+            <Aside/>
         </div>
     )
 }
